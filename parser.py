@@ -22,7 +22,30 @@ def parse_line(line=None):
         return
     else:
         tokens = line.split("/")
+        first_chunk_parser(tokens[0].strip())
         print(tokens)
+
+def first_chunk_parser(firstChunk=None):
+    if firstChunk is None:
+        return
+    else:
+        chunkTokens = firstChunk.split(" ")
+        kanji_parser(chunkTokens[0])
+        reading_parser(chunkTokens[1])
+        
+
+def kanji_parser(kanjiPart=None):
+    if kanjiPart is None:
+        return
+    else:
+        return kanjiPart[1:].split(';')
+
+def reading_parser(readingPart=None):
+    if readingPart is None:
+        return
+    else:
+        return readingPart[readingPart.index('['):readingPart.index(']')].split(';')
+        
         
 
         
