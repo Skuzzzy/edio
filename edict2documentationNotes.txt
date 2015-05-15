@@ -1,0 +1,20 @@
+﻿!!!
+UNFINISHED DO NOT USE
+!!!
+
+Official Documentation Here http://www.edrdg.org/jmdict/edict_doc.html
+Each Line contains an entry
+Each entry is surrounded by either "" or ''
+Each piece of the entry is separated by a forward slash (/)
+The final entry piece is always a new line character (\n)
+"/'
+WORD;OPTIONAL-SECONDWORD [OPTIONAL-READING;OPTIONAL-SECONDREADING] / #REQUIRED ENTRY
+(Part of Speech Marking,) (OPTIONAL SENSE number only) (OPTIONAL Miscellaneous Markings) /
+"/'
+
+
+
+
+
+Other notes
+{astron} is an undocumented field of application for astronomy
