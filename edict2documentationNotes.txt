@@ -3,6 +3,7 @@ UNFINISHED DO NOT USE
 !!!
 
 Official Documentation Here http://www.edrdg.org/jmdict/edict_doc.html
+Better Documentation Here http://www.edrdg.org/jmdictdb/cgi-bin/edhelp.py?svc=jmdict&sid=#kw_kinf
 Each Line contains an entry
 Each entry is surrounded by either "" or ''
 Each piece of the entry is separated by a forward slash (/)
